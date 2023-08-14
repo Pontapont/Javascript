@@ -70,3 +70,7 @@ for (const x of tags) {
   console.log(x);
 }
 
+// Working with JSON Objects
+let text = '{ "employees" : [{ "firstName":"John" , "lastName":"Doe"}, { "firstName":"Anna" , "lastName":"Smith" }, { "firstName":"Peter" , "lastName":"Jones" } ]}';
+text = JSON.parse(text);
+console.log(text["employees"][1]["firstName"]);
