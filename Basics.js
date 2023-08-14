@@ -62,3 +62,11 @@ function reverseString(str) {
 
 "hello".substr(1);
 "hello".charAt(0);
+
+// Loop through array
+let tags = ["template literals", "javascript", "es6"];
+
+for (const x of tags) {
+  console.log(x);
+}
+
