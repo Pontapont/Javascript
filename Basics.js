@@ -35,7 +35,7 @@ for (ele in myList) {
     console.log(myList[ele])
 }
 
-dict
+// Object in javascript
 const person = {fname:"John", lname:"Doe", age:25};
 
 let text = "";
