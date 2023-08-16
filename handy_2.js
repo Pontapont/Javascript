@@ -12,6 +12,12 @@ text.includes("world", 12);
 endsWith()
 startWith()
 
-// string interpolation
+// string interpolation, dont forget ``
 let name = "Omar";
 let anotherText = `My Name Is ${name}`;
+
+// removes first element in array
+shift()
+
+// adds element at start of array
+unshift()
