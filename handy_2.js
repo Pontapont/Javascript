@@ -21,3 +21,12 @@ shift()
 
 // adds element at start of array
 unshift()
+
+// get last value in string
+"abc".slice(-1);
+
+// ! means 'not in'
+myObject["omr"] = 28;
+if (!("omar" in myObject)) {
+    console.log(false);
+}
