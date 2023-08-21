@@ -50,6 +50,13 @@ if (val >= 25 && val <= 50) {
 }
 
 // The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+const x = 8;
+const z = 9;
+const q = 10;
+
+if (x == 8 && z == 9 && q == 10) {
+  console.log(true);
+} else console.log(false);
 
 // Switch statement
 function switchOfStuff(val) {
@@ -73,3 +80,7 @@ function switchOfStuff(val) {
   // Only change code above this line
   return answer;
 }
+
+// Math operators
+Math.round(o + 0.4));
+console.log(Math.sqrt(9))
