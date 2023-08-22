@@ -74,3 +74,15 @@ for (const x of tags) {
 let text = '{ "employees" : [{ "firstName":"John" , "lastName":"Doe"}, { "firstName":"Anna" , "lastName":"Smith" }, { "firstName":"Peter" , "lastName":"Jones" } ]}';
 text = JSON.parse(text);
 console.log(text["employees"][1]["firstName"]);
+
+// Make a javascript object
+const anObject = {
+    "tails": 3,
+    "clouth": "airry",
+    "aList": ["Jappie", 983],
+}
+// Delete object key
+delete anObject["tails"]
+// Check if object has key
+anObject.hasOwnProperty("key")
+
