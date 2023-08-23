@@ -86,3 +86,8 @@ delete anObject["tails"]
 // Check if object has key
 anObject.hasOwnProperty("key")
 
+The initialization statement is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
+The condition statement is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to true. 
+When the condition is false at the start of the iteration, the loop will stop executing. 
+This means if the condition starts as false, your loop will never execute.
+for (let i = 0; i < 5; i++) {}
