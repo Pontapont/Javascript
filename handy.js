@@ -91,3 +91,6 @@ The condition statement is evaluated at the beginning of every loop iteration an
 When the condition is false at the start of the iteration, the loop will stop executing. 
 This means if the condition starts as false, your loop will never execute.
 for (let i = 0; i < 5; i++) {}
+
+// Check if value is Integer
+Number.isInteger("dada")
