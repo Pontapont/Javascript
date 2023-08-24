@@ -25,5 +25,13 @@ const myT = document.getElementById("header");
 const myB = myT.getElementsByTagName("p");
 console.log(myB[2].innerHTML)
 
-// Select all <p> that have a "intro" class
+// Select all <p> that have a "intro" class. Returns array of all selected elements
 let a = document.querySelectorAll("p.intro");
+
+// Changing element styles
+let boxObj = document.querySelector(".class");
+boxObj.style["color"] = "purple";
+
+// Change attribute of ID
+<img id="image" src="smiley.gif" width="160" height="120">
+document.getElementById("image").src = "landscape.jpg";
