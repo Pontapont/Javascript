@@ -119,3 +119,9 @@ const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 \t	tab
 \b	word boundary
 \f	form feed
+
+// A do while loop will execute the loop atleast 1 time even when the while() condition is false
+do {
+  myArray.push(i);
+  i++;
+} while (i < 5)
