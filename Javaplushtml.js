@@ -41,3 +41,8 @@ document.getElementById("image").src = "landscape.jpg";
 
 // Adding an event listener to a html element
 document.getElementById("myBttn").addEventListener("pointerover", displayDate);
+
+// Select property value
+const element = document.querySelector(".text-output");
+const computedStyles = window.getComputedStyle(element);
+const propertyValue = computedStyles.getPropertyValue('display');
