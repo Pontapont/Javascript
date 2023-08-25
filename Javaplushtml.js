@@ -35,3 +35,9 @@ boxObj.style["color"] = "purple";
 // Change attribute of ID
 <img id="image" src="smiley.gif" width="160" height="120">
 document.getElementById("image").src = "landscape.jpg";
+
+// Activate function when mouse is down or up on element
+<h2 class="changeme" onmousedown="changeElement()" onmouseup="changeElement2()">When hover i change</h2>
+
+// Adding an event listener to a html element
+document.getElementById("myBttn").addEventListener("pointerover", displayDate);
