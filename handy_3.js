@@ -20,3 +20,7 @@ myarr.map(mathStuff);
 "153".split("").map(testMe).forEach( num => {
   sum += num;
 });
+
+// Trick to transform integer in a string. Add "" empty value to integer makes it a string
+let x = 153;
+let b = "" + x;
