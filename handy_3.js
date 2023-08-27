@@ -24,3 +24,7 @@ myarr.map(mathStuff);
 // Trick to transform integer in a string. Add "" empty value to integer makes it a string
 let x = 153;
 let b = "" + x;
+
+// replace string value with second parameter value when there is a match
+let x = "Hello";
+let b = x.replace(/[aeiou]/g, ""); // Check if [a, e, i, o, u] in string, if true replace value with ""
