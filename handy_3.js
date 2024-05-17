@@ -25,9 +25,23 @@ myarr.map(mathStuff);
 let x = 153;
 let b = "" + x;
 
+// replace specified char in string with second argument
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+function createPhoneNumber(numbers){
+  var format = "(xxx) xxx-xxxx";
+  
+  for(var i = 0; i < numbers.length; i++)
+  {
+    format = format.replace('x', numbers[i]);
+  }
+  
+  return format;
+}
+
 // replace string value with second parameter value when there is a match
 let x = "Hello";
 let b = x.replace(/[aeiou]/g, ""); // Check if [a, e, i, o, u] in string, if true replace value with ""
 
 // test string x for values with re
 let pin = /^(\d{4}|\d{6})$/.test(x);
+
